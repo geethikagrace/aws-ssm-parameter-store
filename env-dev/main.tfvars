@@ -15,7 +15,3 @@ parameters = [
 
 ]
 
-
-MONGO=true
-Environment=REDIS_HOST=redis-dev.sonydevops.online
-Environment=MONGO_URL="mongodb://mongodb-dev.sonydevops.online:27017/users"
