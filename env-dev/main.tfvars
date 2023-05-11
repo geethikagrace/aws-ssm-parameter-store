@@ -9,7 +9,10 @@ parameters = [
   { name: "dev.catalogue.mongo_url" , value = "mongodb://mongodb-dev.sonydevops.online:27017/catalogue" },
   { name: "dev.user.mongo" , value = "MONGO=true" },
   { name: "dev.user.redis_host" , value = "redis-dev.sonydevops.online" },
-  { name: "dev.user.mongo_url" , value = "mongodb://mongodb-dev.sonydevops.online:27017/users" }
+  { name: "dev.user.mongo_url" , value = "mongodb://mongodb-dev.sonydevops.online:27017/users" },
+  { name = "dev.cart.redis_host", value = "redis-dev.sonydevops.online" },
+  { name = "dev.cart.catalogue_host", value = "catalogue-dev.sonydevops.online" },
+  { name = "dev.cart.catalogue_port", value = "8080" }
 
 
 
