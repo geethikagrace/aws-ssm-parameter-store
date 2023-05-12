@@ -12,7 +12,11 @@ parameters = [
   { name: "dev.user.mongo_url" , value = "mongodb://mongodb-dev.sonydevops.online:27017/users" },
   { name = "dev.cart.redis_host", value = "redis-dev.sonydevops.online" },
   { name = "dev.cart.catalogue_host", value = "catalogue-dev.sonydevops.online" },
-  { name = "dev.cart.catalogue_port", value = "8080" }
+  { name = "dev.cart.catalogue_port", value = "8080" },
+  { name = "dev.shipping.cart_endpoint", value = "cart-dev.sonydevops.online:8080" },
+  { name = "dev.shipping.db_host", value = "mysql-dev.sonydevops.online" },
+  { name = "dev.shipping.db_user", value = "root" },
+  { name = "dev.shipping.db_pass", value = "RoboShop@1" }
 
 
 
