@@ -22,7 +22,7 @@ parameters = [
   { name = "dev.payment.user_port", value = "8080" },
   { name = "dev.payment.amqp_host", value = "rabbitmq-dev.sonydevops.online" },
   { name = "dev.payment.amqp_user", value = "roboshop" },
-  { name = "dev.docdb_endpoint", value = "docdb-dev-0.c8ufbqeyvx3w.us-east-1.docdb.amazonaws.com" }
+  { name = "dev.docdb.db_endpoint", value = "docdb-dev-0.c8ufbqeyvx3w.us-east-1.docdb.amazonaws.com" }
 
 
 ]
