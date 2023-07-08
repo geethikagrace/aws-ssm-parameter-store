@@ -24,7 +24,8 @@ parameters = [
   { name = "dev.payment.amqp_user", value = "roboshop" },
   { name = "dev.docdb.db_endpoint", value = "docdb-dev-0.c8ufbqeyvx3w.us-east-1.docdb.amazonaws.com" }
 
-
+  { name = "dev.docdb.db_endpoint", value = "docdb-dev.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com" }
+]
 ]
 
 passwords = [
